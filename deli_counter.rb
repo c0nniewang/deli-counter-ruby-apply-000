@@ -1,12 +1,12 @@
-def line(katz_deli)
-  if katz_deli.length == 0
+def line(arr)
+  if arr.length == 0
     "The line is currently empty."
-  else
-    str = "The line is currently:"
+  else arr.length > 0
+    str = "The line is currently: "
     newstr = ""
-    katz_deli.each.with_index do |el, i|
-      newstr += (i + 1).to_s + ". " + el
-    str + newstr
+    arr.each_with_index do |el, i|
+      newstr += (i + 1).to_s + ". #{el} "
     end
+    str + newstr
   end
 end
