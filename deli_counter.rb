@@ -1,7 +1,4 @@
-
-
-
-def line(arr)
+def line(katz_deli)
   if arr.length == 0
     return "The line is currently empty."
   else
