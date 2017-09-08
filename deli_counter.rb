@@ -4,7 +4,7 @@ def line(katz_deli)
   else
     str = "The line is currently:"
     newstr = ""
-    arr.each.with_index do |el, i|
+    katz_deli.each.with_index do |el, i|
       newstr += (i + 1).to_s + ". " + el
     str + newstr
     end
