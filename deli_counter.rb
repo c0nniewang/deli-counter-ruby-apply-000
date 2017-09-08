@@ -11,5 +11,7 @@ def line(arr)
   end
 end
 
-def take_a_number(arr )
+def take_a_number(arr, name)
+  pos = arr.length + 2
+  puts "Welcome, #{name}. You are number #{pos} in line."
 end
