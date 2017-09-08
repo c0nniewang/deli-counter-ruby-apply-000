@@ -6,8 +6,8 @@ def line(arr)
     str = "The line is currently empty."
   else
     str = "The line is currently:"
-    arr.each.with_index do |el, i| 
-      str += (i + 1).to_s + ". " + el 
+    arr.each.with_index do |el, i|
+      str += (i + 1).to_s + ". " + el
     end
   end
   str
